@@ -1,16 +1,7 @@
-//
-//  AppDelegate.swift
-//  Kadai-1
-//
-//  Created by 鈴木淳子 on 2021/10/27.
-//
-
 import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
