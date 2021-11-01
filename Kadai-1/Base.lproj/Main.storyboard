@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -13,7 +12,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Kadai_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="G1T-DU-ArZ">
@@ -66,12 +65,12 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="label1" destination="G1T-DU-ArZ" id="4Q7-gR-DeY"/>
-                        <outlet property="label2" destination="WrR-RV-cEo" id="NGZ-A0-PmE"/>
-                        <outlet property="label3" destination="FCw-DO-qSz" id="U6M-pF-nKF"/>
-                        <outlet property="label4" destination="kNa-65-cbq" id="end-rj-i0B"/>
-                        <outlet property="label5" destination="NGT-Bh-uDk" id="K7A-Fo-8bH"/>
-                        <outlet property="total" destination="KDU-3k-bre" id="ZEe-xU-jBu"/>
+                        <outlet property="textField1" destination="G1T-DU-ArZ" id="4Q7-gR-DeY"/>
+                        <outlet property="textField2" destination="WrR-RV-cEo" id="NGZ-A0-PmE"/>
+                        <outlet property="textField3" destination="FCw-DO-qSz" id="U6M-pF-nKF"/>
+                        <outlet property="textField4" destination="kNa-65-cbq" id="end-rj-i0B"/>
+                        <outlet property="textField5" destination="NGT-Bh-uDk" id="K7A-Fo-8bH"/>
+                        <outlet property="totalLabel" destination="KDU-3k-bre" id="ZEe-xU-jBu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
