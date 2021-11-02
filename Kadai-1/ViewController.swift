@@ -7,7 +7,6 @@ class ViewController: UIViewController {
     @IBOutlet private weak var textField4: UITextField!
     @IBOutlet private weak var textField5: UITextField!
     @IBOutlet private weak var totalLabel: UILabel!
-
     @IBAction private func buttonTapped(_ sender: Any) {
         let num1 = Int(textField1.text ?? "") ?? 0
         let num2 = Int(textField2.text ?? "") ?? 0
